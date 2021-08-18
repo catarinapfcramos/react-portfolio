@@ -1,0 +1,39 @@
+.Home {
+  margin: 0 auto;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  border: 1px solid blue;
+}
+
+.profile img {
+  margin-left: 10px;
+  border-radius: 50%;
+  height: 200px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.get-in-touch-button {
+  display: block;
+  border: 3px solid green;
+  color: green;
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  transition: all 250ms ease-in-out;
+}
+
+.socials a {
+  margin-right: 15px;
+}
