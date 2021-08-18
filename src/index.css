@@ -1,0 +1,7 @@
+body {
+  display: flex;
+  color: black;
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
