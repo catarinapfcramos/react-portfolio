@@ -1,0 +1,19 @@
+.Contact {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: "Nanum Gothic", sans-serif;
+  color: #533317;
+}
+
+.Contact h2 {
+  margin-top: 20px;
+  color: #be7535;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.Contact h3 {
+  font-weight: bold;
+  text-align: center;
+}

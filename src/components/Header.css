@@ -1,25 +1,25 @@
 .Header {
   height: 50px;
-  background: yellowgreen;
+  background: #d9a476;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-span {
+.Header span {
   font-weight: bold;
-  color: rgb(39, 73, 39);
+  color: #533317;
   padding: 10px;
 }
 
-ul {
+.Header ul {
   display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-li {
+.Header li {
   margin-right: 15px;
 }
