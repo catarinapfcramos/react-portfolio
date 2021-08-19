@@ -1,20 +1,32 @@
 .Contact {
   margin: 0 auto;
+  margin-top: 90px;
   padding: 0;
   text-align: center;
   font-family: "Nanum Gothic", sans-serif;
-  color: #533317;
+  color: #222121;
+  background: #ececec;
+  max-width: 700px;
+  padding-bottom: 20px;
+  box-shadow: 4px 5px 5px rgba(83, 51, 23, 0.2);
+  border-radius: 15px;
 }
 
 .Contact h2 {
-  margin-top: 25px;
-  color: #be7535;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: #385170;
   font-weight: bold;
   font-size: 50px;
 }
 
-.Contact h3 {
+.Contact h6 {
   margin-top: 30px;
   font-weight: bold;
   text-align: center;
+  color: #385170;
+}
+
+.Contact i {
+  color: #385170;
 }

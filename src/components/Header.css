@@ -1,16 +1,17 @@
 .Header {
   height: 50px;
-  background: #d9a476;
-  color: black;
+  background: #f7f4ff;
+  color: #142d4c;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  box-shadow: 2px 2px 1px rgb(0, 0, 0, 0.2);
+  position: fixed;
 }
 
 .Header span {
   font-weight: bold;
-  color: #533317;
   padding: 10px;
   margin-left: 20px;
 }

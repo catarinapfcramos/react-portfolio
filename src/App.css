@@ -5,30 +5,35 @@
   margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
+.content-wrap {
+  flex: 1;
+}
 a {
   text-decoration: none;
-  color: #533317;
+  color: #142d4c;
 }
 a:hover {
-  color: #be7535;
+  color: #9fd3c7;
   cursor: pointer;
 }
 
 .button {
-  border: 2px solid #be7535;
-  color: #be7535;
+  border: 2px solid #142d4c;
+  color: #142d4c;
   font-weight: bold;
-  background-color: #e3bc9a;
+  background-color: #ececec;
   border-radius: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 10px;
   transition: all 250ms ease-in-out;
   cursor: pointer;
 }
 
 .button:hover {
-  color: #e3bc9a;
-  background-color: #be7535;
+  color: #ececec;
+  background-color: #142d4c;
 }

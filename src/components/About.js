@@ -6,14 +6,20 @@ function About() {
         <div className="About">
             <section className="about-me">
                 <h2 >About me</h2>
-                <p> Hello, I'm Catarina and I'm from Porto, in Portugal. 
-                    I have a PhD in Geotechnical Engineering and recently I have started learning (and loving) code. 
-                    I am looking for a great opportunity in the development world.
-                Some of my main strengths include planning and organisation, problem solving, critical thinking, and resilience. I have
-                collaborated with multicultural and multidisciplinary teams, so I am used to different work environments.
-                </p>
-                   
-                <div class="row">
+                < div className="row row-presentation">
+                    <div className="col text">
+                        <p> Hello, I'm Catarina and I'm from Porto, in Portugal. 
+                            I have a PhD in Geotechnical Engineering and recently I have started learning (and loving) code. 
+                            I am looking for a great opportunity in the development world.
+                        Some of my main strengths include planning and organisation, problem solving, critical thinking, and resilience. I have
+                        collaborated with multicultural and multidisciplinary teams, so I am used to different work environments.
+                        </p>
+                    </div>
+                    <div className=" col image">
+                        <img src="/images/profile2.jpg" alt="my face" /> 
+                    </div>
+                </div>   
+                <div class="row row-skills">
                     <div class="col-sm skills">
                         <i class="fas fa-laptop"></i>
                         <h3>Front-end</h3>
@@ -45,10 +51,7 @@ function About() {
                             <li>German - A1</li>
                         </ul>
                     </div>
-            </div>
-
-
-
+                </div>
             </section>
         </div>
     )

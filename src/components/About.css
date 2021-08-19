@@ -3,23 +3,47 @@
   padding: 0;
   text-align: center;
   font-family: "Nanum Gothic", sans-serif;
-  color: #533317;
+  color: #222121;
 }
 
 .About h2 {
-  margin-top: 25px;
-  color: #be7535;
+  margin-top: 90px;
+  color: #385170;
   font-weight: bold;
   font-size: 50px;
 }
-.About p {
-  text-align: justify;
-  padding: 50px;
+.About .row-presentation {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 15px;
+  min-height: 300px;
+  background: #ececec;
+  box-shadow: 4px 5px 5px rgba(83, 51, 23, 0.2);
+  border-radius: 15px;
+  margin: 30px 20px 30px 20px;
+  padding: 10px;
 }
+
+.About .text {
+  text-align: justify;
+  margin: 0 20px;
+  max-height: 300px;
+  box-sizing: border-box;
+}
+
+.row-presentation img {
+  width: auto;
+  max-height: 300px;
+  border-radius: 15px;
+}
+
 .About h3 {
   font-weight: bold;
   text-align: center;
+  color: #385170;
 }
+
 .About ul {
   list-style: none;
   margin: 0 auto;
@@ -28,9 +52,18 @@
 
 .About i {
   font-size: 40px;
-  margin-bottom: 5px;
-  color: #be7535;
+  margin-bottom: 10px;
+  color: #9fd3c7;
+}
+
+.About .row-skills {
+  margin: 30px 10px 30px 10px;
 }
 .About .skills {
-  margin-bottom: 30px;
+  background: #ececec;
+  box-shadow: 4px 5px 5px rgba(83, 51, 23, 0.2);
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

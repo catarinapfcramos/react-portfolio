@@ -10,24 +10,26 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Router >
-        <Header />
-        <Switch>
-          <Route path='/about'> 
-            <About />
-          </Route>
-          <Route path='/work'> 
-            <Work />
-          </Route>
-          <Route path='/contact'> 
-            <Contact />
-          </Route>
-          <Route path='/'> 
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>  
+      <div className="content-wrap">
+        <Router >
+          <Header />
+          <Switch>
+            <Route path='/about'> 
+              <About />
+            </Route>
+            <Route path='/work'> 
+              <Work />
+            </Route>
+            <Route path='/contact'> 
+              <Contact />
+            </Route>
+            <Route path='/'> 
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+      <Footer /> 
     </div>
   );
 }

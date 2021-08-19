@@ -1,10 +1,7 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-  color: #533317;
-  background: #e3bc9a;
+  color: #222121;
+  background: #f7f4ff;
   font-family: "Nanum Gothic", sans-serif;
   margin: 0 auto;
   padding: 0;

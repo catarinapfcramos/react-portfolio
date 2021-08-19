@@ -1,15 +1,16 @@
 .Work {
   margin: 0 auto;
+  margin-top: 90px;
   padding: 0;
   text-align: center;
   font-family: "Nanum Gothic", sans-serif;
-  color: #533317;
+  color: #222121;
   width: 90%;
 }
 .Work h2 {
   margin-top: 25px;
-  margin-bottom: 20px;
-  color: #be7535;
+  margin-bottom: 30px;
+  color: #385170;
   font-weight: bold;
   font-size: 50px;
 }
@@ -17,17 +18,19 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  border-radius: 25px;
+  border-radius: 15px;
   margin-top: 25px;
   padding: 0;
-  background: #e0b48e;
+  background: #ececec;
   box-shadow: 4px 5px 5px rgba(83, 51, 23, 0.2);
+  min-height: 250px;
 }
 
 .Work img {
   width: 100%;
   border-radius: 25px;
 }
+
 .Work .details {
   margin-top: 10px;
 }

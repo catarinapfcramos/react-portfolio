@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
-import Work from "./Work";
+
+import ImgSlider from "./ImgSlider";
 
 function Home() {
     return (
@@ -35,7 +36,7 @@ function Home() {
                                    
             </section>
            
-                <Work />
+                <ImgSlider />
             
                  
         </div>
