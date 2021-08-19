@@ -1,4 +1,8 @@
 .Footer {
+  display: flex;
+  justify-content: center;
+
+  align-items: flex-end;
   text-align: center;
   font-size: small;
   margin-bottom: 0;

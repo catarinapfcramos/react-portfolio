@@ -7,7 +7,7 @@
   width: 90%;
 }
 .Work h2 {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
   color: #be7535;
   font-weight: bold;
@@ -16,14 +16,17 @@
 .Work .work-row {
   display: flex;
   align-items: center;
+  flex-direction: row;
   border-radius: 25px;
   margin-top: 25px;
-  border: 1px solid black;
+  padding: 0;
+  background: #e0b48e;
+  box-shadow: 4px 5px 5px rgba(83, 51, 23, 0.2);
 }
 
 .Work img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 .Work .details {
   margin-top: 10px;
@@ -35,5 +38,9 @@
 
 .Work p {
   text-align: justify;
-  padding: 20px;
+  padding: 15px;
+}
+
+.Work .button {
+  margin-bottom: 15px;
 }

@@ -4,12 +4,12 @@ import "./Work.css";
 function Work() {
     return (
         <div className="Work">
-            <h2 className="text-center">What I've been working on!</h2>
+            <h2>What I've been working on!</h2>
             <div className="row work-row odd-row">
-                <div className="col-6 image">
+                <div className="col-sm image">
                     <img src="/images/project1.png" alt="" />
                 </div>
-                <div className="col-6">
+                <div className="col-sm">
                     <div className="details">
                         <h3>Weather App</h3>
                         <p>This was the first project I have built.
@@ -22,7 +22,7 @@ function Work() {
                 </div>
             </div>
             <div className="row work-row even-row">
-                <div className="col-6">
+                <div className="col-sm">
                     <div className="details">
                         <h3>React Weather App</h3>
                         <p>The same weather app but using React.js. Go check the weather in your city</p>
@@ -31,15 +31,15 @@ function Work() {
                         </a>
                     </div>
                 </div>
-                <div className="col-6 image">
+                <div className="col-sm image">
                     <img src="/images/project2.png" alt="" />
                 </div>
             </div>
             <div className="row work-row odd-row">
-                <div className="col-6 image">
+                <div className="col-sm image">
                     <img src="/images/project3.png" alt="" />
                 </div>
-                <div className="col-6">
+                <div className="col-sm">
                     <div className="details">
                         <h3>React Dictionary App </h3>
                         <p>This is another React project, where I have built a dictionary app (English)</p>
@@ -49,6 +49,7 @@ function Work() {
                     </div>
                 </div>
             </div>
+            
 
         </div>
     )

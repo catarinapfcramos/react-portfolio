@@ -14,7 +14,7 @@ function About() {
                 </p>
                    
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm skills">
                         <i class="fas fa-laptop"></i>
                         <h3>Front-end</h3>
                             <ul>
@@ -27,7 +27,7 @@ function About() {
                             </ul>
                     </div>
                 
-                    <div class="col-sm">
+                    <div class="col-sm skills">
                         <i class="fas fa-star"></i>
                         <h3>Tools</h3>
                         <ul>
@@ -35,7 +35,7 @@ function About() {
                             <li>Netlify</li>
                         </ul>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm skills">
                         <i class="fas fa-globe"></i>
                         <h3>Languages</h3>
                         <ul>
