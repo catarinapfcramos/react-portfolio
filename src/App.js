@@ -10,9 +10,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <Header />
+      
       <div className="content-wrap">
         <Router >
+          <Header />
           <Switch>
             <Route path='/about'> 
               <About />
