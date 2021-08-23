@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Home.css";
-
-import ImgSlider from "./ImgSlider";
+import SimpleSlider from "./SimpleSlider";
 
 function Home() {
     return (
@@ -35,10 +34,14 @@ function Home() {
                 </p>
                                    
             </section>
-           
-                <ImgSlider />
-            
-                 
+            <section className="container carousel">
+                <h2 className="text-center">My Portfolio</h2>
+                <SimpleSlider />
+                <a className="btn button" href="/work" title="Work Portfolio">
+          Check out my work
+          </a> 
+            </section> 
+                            
         </div>
     )
 }

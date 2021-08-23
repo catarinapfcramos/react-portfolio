@@ -1,0 +1,32 @@
+.card-wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10x;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card-wrapper h5 {
+  color: #142d4c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.card-image img {
+  border-radius: 15px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #142d4c;
+}

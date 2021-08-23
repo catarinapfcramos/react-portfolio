@@ -7,7 +7,7 @@ function Work() {
             <h2>What I've been working on!</h2>
             <div className="row work-row odd-row">
                 <div className="col-sm image">
-                    <img src="/images/project1.png" alt="" />
+                    <img src="/images/weather.png" alt="" />
                 </div>
                 <div className="col-sm">
                     <div className="details">
@@ -32,12 +32,12 @@ function Work() {
                     </div>
                 </div>
                 <div className="col-sm image">
-                    <img src="/images/project2.png" alt="" />
+                    <img src="/images/weather.png" alt="" />
                 </div>
             </div>
             <div className="row work-row odd-row">
                 <div className="col-sm image">
-                    <img src="/images/project3.png" alt="" />
+                    <img src="/images/dictionary.png" alt="" />
                 </div>
                 <div className="col-sm">
                     <div className="details">
