@@ -40,17 +40,9 @@
   margin-right: 15px;
 }
 
-.Home .about {
-  margin: 30px;
-}
-.about h2 {
-  margin-bottom: 20px;
-  color: #142d4c;
-  font-weight: bold;
-}
-
 .carousel {
   margin: 0 auto;
+  margin-top: 70px;
   padding: 30px;
   border-radius: 15px;
   min-height: 300px;

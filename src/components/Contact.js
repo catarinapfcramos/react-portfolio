@@ -10,11 +10,11 @@ function Contact() {
           Get In Touch
           </a>  
           <h6><i className="fas fa-envelope"></i> Email</h6>
-            <a href="/" className="email-link">
+            <a href="mailto:catarinacorreiaramos@gmail.com" className="email-link">
               catarinacorreiaramos@gmail.com
             </a>
           <h6><i className="fab fa-linkedin-in"></i> Linkedin</h6>
-            <a href="/" title="LinkedIn Profile" target="_blank" rel="noreferrer" className="email-link">
+            <a href="https://www.linkedin.com/in/catarinapfcramos/" title="LinkedIn Profile" target="_blank" rel="noreferrer" className="email-link">
             Catarina Ramos
             </a>
           

@@ -36,6 +36,12 @@ export default function SimpleSlider() {
           </div>
           <h5>React Dictionary App</h5>
         </div>
+        <div className="card-wrapper">
+          <div className="card-image">
+            <img src="./images/tictactoe.png" alt = "forth-project" />
+          </div>
+          <h5>Tic-Tac-Toe Game</h5>
+        </div>
              
     </Slider>
      

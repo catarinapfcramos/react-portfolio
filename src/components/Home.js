@@ -25,15 +25,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-
-            <section className="about">
-                <h2 className="text-center">About me</h2>
-                <p>I have a PhD in Geotechnical Engineering and recently I have started learning (and loving) code. I am looking for a great opportunity in the development world.
-                            Some of my main strengths include planning and organisation, problem solving, critical thinking, and resilience. I have
-                            collaborated with multicultural and multidisciplinary teams, so I am used to different work environments.
-                </p>
-                                   
-            </section>
+           
             <section className="container carousel">
                 <h2 className="text-center">My Portfolio</h2>
                 <SimpleSlider />
