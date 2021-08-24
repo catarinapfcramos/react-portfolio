@@ -11,7 +11,11 @@ function Home() {
                 </div>
                 <div className="details">
                     <h2>Hi, I'm Catarina Ramos.</h2>
-                    <span>Front-End developer based in Porto, Portugal</span>
+                    <span>Front-End developer based in Porto, Portugal
+                        <br />
+                          I am open to new opportunities mainly in front-end/react development.
+                    </span>
+                    
                     <a className="btn button get-in-touch-button"
                             href="mailto:catarinacorreiaramos@gmail.com">Get In
                             Touch</a>

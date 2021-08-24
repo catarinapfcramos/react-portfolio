@@ -31,3 +31,9 @@
 .Contact i {
   color: #385170;
 }
+
+@media screen and (max-width: 640px) {
+  .Contact h2 {
+    font-size: 30px;
+  }
+}

@@ -8,7 +8,7 @@ function About() {
                 <h2 >About me</h2>
                 < div className="row row-presentation">
                     <div className="col text">
-                        <p> Hello, I'm Catarina and I'm from Porto, in Portugal. I love books, bullet journaling, live music and sunny days.
+                        <p> Hello, I'm Catarina and I'm from Porto, in Portugal. I love books, bullet journaling, live music and sunny days. I have a PhD in Geotechnical Engineering.
                             I have always loved to learn and try new things, so I have recently started to learn code with the help of SheCodes workshops and YouTube! 
                             I am looking for a great opportunity in the development world. Some of my main strengths include planning and organization, problem solving, 
                             critical thinking, and resilience. I have collaborated with multicultural and multidisciplinary teams, so I am used to different work environments.
@@ -18,7 +18,7 @@ function About() {
                         </a> 
                     </div>
                     <div className=" col image">
-                        <img src="/images/profile2.jpg" alt="my face" /> 
+                        <img src="/images/profile2.jpg" alt="my face" height="300px" /> 
                     </div>
                 </div>   
                 <div class="row row-skills">
