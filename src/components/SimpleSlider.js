@@ -42,6 +42,12 @@ export default function SimpleSlider() {
           </div>
           <h5>Tic-Tac-Toe Game</h5>
         </div>
+        <div className="card-wrapper">
+          <div className="card-image">
+            <img src="./images/rockpaperscissors.png" alt = "fifth-project" />
+          </div>
+          <h5>Rock-Paper-Scissors Game</h5>
+        </div>
              
     </Slider>
      

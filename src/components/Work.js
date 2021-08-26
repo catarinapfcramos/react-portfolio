@@ -55,12 +55,26 @@ function Work() {
                         <h3>Tic-Tac-Toe Game</h3>
                         <p>This project is a Tic-Tac-Toe game I developed following a tutorial from Clever Programmer YouTube Channel.</p>
                         <a className="btn button" target="_blank" rel="noreferrer" href="https://laughing-kare-92eb88.netlify.app/">
-                            Go to the Game
+                            Play the Game!
                         </a>
                     </div>
                 </div>
                 <div className="col-sm image">
                     <img src="/images/tictactoe.png" alt="" />
+                </div>
+            </div>
+            <div className="row work-row odd-row">
+                <div className="col-sm image">
+                    <img src="/images/rockpaperscissors.png" alt="" />
+                </div>
+                <div className="col-sm">
+                    <div className="details">
+                        <h3>Rock Paper Scissors Game </h3>
+                        <p>This project is a Rock Paper Scissors Game I developed from a <a href="https://www.frontendmentor.io/" target="_blanck" rel="noreferer">FrontEnd Mentor</a> challenge.</p>
+                        <a className="btn button" target="_blank" rel="noreferrer" href="https://heuristic-goldberg-9e2c18.netlify.app/">
+                            Play the Game!
+                        </a>
+                    </div>
                 </div>
             </div>
             
